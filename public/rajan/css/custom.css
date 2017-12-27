@@ -1,0 +1,199 @@
+/*!
+ * © Copyright 2017, Rajan Maharjan
+ */
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/*navbar*/
+#main-navbar {
+	height: 40px;
+	width: 70%;
+	position: absolute;
+	right: 0;
+	left: auto;
+}
+
+.sc-top-statusbar {
+	background-color: #316be2;
+	transform: perspective(10px) rotateX(-1deg);
+	-webkit-transform: perspective(10px) rotateX(-1deg);
+	-o-transform: perspective(10px) rotateX(-1deg);
+	-moz-transform: perspective(10px) rotateX(-1deg);
+	-webkit-transform-origin: 100% 50%;
+	-moz-transform-origin: 100% 50%;
+	-o-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+	height: 40px;
+
+}
+
+.sc-info {
+	position: absolute;
+	top: 8px;
+	margin: 0 52px;
+	width: 100%;
+}
+
+.sc-info ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.sc-info ul li {
+	text-decoration: none;
+	float: left;
+	color: #ffffff;
+	padding: 0 16px;
+	font-size: 14px;
+}
+
+.sc-info ul li a {
+	color: #ffffff;
+}
+
+.navbar-fixed-top {
+	position: static;
+}
+
+.navbar-fixed-top {
+	top: 0;
+}
+
+.fixed-top {
+	position: absolute;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	margin-bottom: 0;
+}
+
+nav {
+	font-weight: 200;
+}
+
+nav .container {
+	margin-top: 40px;
+}
+
+.sc-black-bg {
+	background-color: #000000;
+	opacity: 0.3;
+	height: 100%;
+	width: 100%;
+}
+
+.navbar .nav-item {
+	margin: 0 25px;
+	font-size: 15px;
+}
+
+.navbar .nav-item a {
+	text-transform: uppercase;
+	color: #ffffff !important;
+}
+
+.navbar .nav-item a:hover {
+	color: #ccc !important;
+}
+
+.sc-con {
+	display: inline-block;
+}
+
+.sc-soc {
+	display: inline-block;
+	position: absolute;
+	right: 180px;
+}
+
+.sc-soc li a:hover {
+	color: #3358cc;
+}
+
+/*buttons*/
+.sc-join-btn {
+	background-color: #316be2;
+	border-radius: 4px;
+}
+
+.sc-join-btn:hover {
+	background-color: #3358cc;
+}
+
+/*header carousel*/
+.carousel-control-next,
+.carousel-control-prev {
+	position: relative;
+	top: auto;
+	bottom: 100px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	opacity: 1;
+	background-color: #316be2;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+}
+
+.carousel-control-next i,
+.carousel-control-prev i {
+	margin: 10px 0;
+}
+
+.carousel-caption {
+	position: absolute;
+	right: auto;
+	bottom: 130px;
+	left: auto;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: left;
+	width: 450px;
+}
+
+.carousel-caption strong {
+	font-size: 30px;
+}
+
+.carousel-indicators {
+	position: absolute;
+	right: 0;
+	bottom: 100px;
+	left: auto;
+	z-index: 15;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	list-style: none;
+}
+
+.carousel-indicators li {
+	position: relative;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 10px;
+	height: 10px;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	background-color: rgba(255, 255, 255, .5);
+}
